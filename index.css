@@ -1,0 +1,21 @@
+/* Type selectors */
+p {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+/* Universal selectors- Astersik */
+
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+/* Selecting classes using the "." operator */
+
+.brand {
+  color: yellow;
+}
