@@ -62,10 +62,9 @@ p:hover {
 }
 
 /* chaining */
-/* 
-The code above would select only the <h1> elements with a class of special
-*/
-
 h1.special {
   color: aliceblue;
 }
+/* 
+The code above would select only the <h1> elements with a class of special
+*/
