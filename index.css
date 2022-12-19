@@ -19,3 +19,53 @@ h1 {
 .brand {
   color: yellow;
 }
+
+/* Selecting Ids using the "#" operator */
+#large-title {
+  border: 0cm;
+}
+
+/* styling by use of Attributes */
+/* This here styles the link href attributes, hence links will be that color */
+[href] {
+  color: magenta;
+}
+
+/* Another usage for the above */
+/* 
+Sample HTML code to style
+
+<img src='/images/seasons/cold/winter.jpg'>
+<img src='/images/seasons/warm/summer.jpg'>
+
+*/
+img[src*="winter"] {
+  height: 50px;
+}
+
+img[src*="summer"] {
+  height: 100px;
+}
+
+/* 
+  
+Now take a look at the above CSS code. The attribute selector is used to target each image individually.
+The first ruleset looks for an img element with an attribute of src that contains the string 'winter', and sets the height to 50px.
+The second ruleset looks for an img element with an attribute of src that contains the string 'summer', and sets the height to 100px.
+    
+*/
+
+/* pseudo-class selectors */
+/* e.g :active, :after, :focus, :visited */
+p:hover {
+  background-color: lime;
+}
+
+/* chaining */
+/* 
+The code above would select only the <h1> elements with a class of special
+*/
+
+h1.special {
+  color: aliceblue;
+}
