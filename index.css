@@ -69,3 +69,16 @@ h1.special {
 /* 
 The code above would select only the <h1> elements with a class of special
 */
+
+/* Every time you are styling, start with this statement down here....so as to prevent messed up dimensions, the padding, and width thingies, wont affect the full content box measurements */
+* {
+  box-sizing: border-box;
+}
+
+/* Also a good practice to do this as well
+* So that you start from scratch rather than what the browser dictates at first
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
