@@ -82,3 +82,12 @@ The code above would select only the <h1> elements with a class of special
   padding: 0;
   margin: 0;
 }
+
+/* Flow of HTML, CSS properties that help affect how the flow is!! 
+Examples;
+position
+display
+z-index
+float
+clear
+*/
