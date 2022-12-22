@@ -84,6 +84,9 @@ The code above would select only the <h1> elements with a class of special
 }
 
 /* Flow of HTML, CSS properties that help affect how the flow is!! 
+
+AKA, Display and positioning
+
 Examples;
 position
 display
@@ -91,3 +94,6 @@ z-index
 float
 clear
 */
+
+/* The position property */
+/* lets stary with relative */
