@@ -1,0 +1,166 @@
+* {
+  background-color: black;
+  color: rgba(255, 245, 238, 0.9);
+  font-size: 22px;
+  font-family: Helvetica;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Nav bar links and logo area */
+.nav-bar {
+  display: flex;
+  /* position: fixed; */
+}
+
+.logo {
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.logo-img {
+  flex-basis: 100px;
+}
+
+.links {
+  margin-top: 30px;
+  margin-left: 830px;
+}
+
+.mission {
+  margin-right: 10px;
+}
+
+.featured {
+  margin-right: 10px;
+}
+.locale {
+  margin-right: 10px;
+}
+
+/* Hero Section  */
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  display: flex;
+  align-content: center;
+  background-image: url("./imgs/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  height: 700px;
+  width: 1200px;
+}
+
+.hero-banner {
+  margin-top: 300px;
+  height: 100px;
+  width: 1200px;
+}
+
+.heading {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Main section */
+
+.intro-main {
+  margin-top: 65px;
+}
+
+.heading-main {
+  margin-bottom: 20px;
+}
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.first-three-img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.two-img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+/* Locations area */
+.area {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.locations {
+  background-image: url("./imgs/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  opacity: 0.6;
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  margin-right: 40px;
+  height: 300px;
+}
+
+.place {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.p {
+  margin-bottom: 50px;
+}
+
+/* The footer section */
+.footer {
+  margin-top: 10px;
+}
+
+.cozy {
+  margin-bottom: 30px;
+}
+
+.email {
+  margin-bottom: 20px;
+}
+
+.down {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  font-size: medium;
+}
