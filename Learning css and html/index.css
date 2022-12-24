@@ -47,7 +47,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 95px;
+  top: 75px;
 }
 
 .hero-img {
@@ -74,7 +74,7 @@
 /* Main section */
 
 .intro-main {
-  margin-top: 65px;
+  margin-top: 120px;
 }
 
 .heading-main {
