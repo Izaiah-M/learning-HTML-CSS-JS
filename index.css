@@ -97,3 +97,22 @@ clear
 
 /* The position property */
 /* lets stary with relative */
+/* for images 
+z index is the key to making the backroud image a little darkrt
+*/
+.overlay:before {
+  content: " ";
+  z-index: 1;
+  display: block;
+  position: absolute;
+  height: 450px;
+  top: 40;
+  left: 5%;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* git diff filename 
+git log
+git reset filename (to remove files from staging area)
+*/
