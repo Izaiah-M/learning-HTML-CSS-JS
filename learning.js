@@ -34,3 +34,8 @@ console.log("the Event Loop");
 //  export { resources as default };
 
 // Check testing.js to see how we import!
+const asyncHello = new Promise((resolve, reject) => {
+  setTimeout(resolve, 1000, "Hello!");
+});
+
+console.log(typeof asyncHello);
