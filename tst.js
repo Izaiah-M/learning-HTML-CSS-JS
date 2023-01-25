@@ -22,10 +22,12 @@ const arr = [
   },
 ];
 
-const test = arr.map((el) => ({
-  name: el.name,
-  age: el.age,
-  type: el.type.name,
-}));
+const teat = {
+  name: "eerr",
+  joy: "jeek",
+};
 
-console.log(test);
+for (const tst in teat) {
+  console.log(tst);
+}
+// console.log(tst);
