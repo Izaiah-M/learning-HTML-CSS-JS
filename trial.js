@@ -1,4 +1,5 @@
 // Testing
+// Skills on APIs
 
 const url = "https://api.database.com/words?sl=";
 const inputField = document.getElementById("myInput");
