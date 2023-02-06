@@ -1,5 +1,6 @@
 // Testing
 // Skills on APIs
+// Are they accurate?
 
 const url = "https://api.database.com/words?sl=";
 const inputField = document.getElementById("myInput");
