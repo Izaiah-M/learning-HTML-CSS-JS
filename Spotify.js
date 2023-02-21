@@ -1,5 +1,5 @@
-const client_id = "4fff23c99ab74f8aa1b7fd4fdbac92a8";
-const client_secret = "e80c9af0551b44cab9c37541d81b04a7";
+const client_id = "";
+const client_secret = "";
 
 const Spotify = {
   async getAccessToken() {
