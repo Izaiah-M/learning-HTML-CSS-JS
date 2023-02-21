@@ -1,6 +1,9 @@
+// Leave fs out for the mean time.
+
 // const fs = require("fs");
 const http = require("http");
 
+// Creating the server.
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
 
@@ -12,6 +15,7 @@ const server = http.createServer((req, res) => {
         res.end("Hey there we are live!!");
         break;
       } else if (req.method === "POST") {
+        // Function to be called to handle post requests at the specidied path.
         break;
       }
 
@@ -21,6 +25,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
+// Port server should listen requests from.
 server.listen(8080, () => {
   console.log(
     `Server is listening on: http://localhost:${server.address().port}`
