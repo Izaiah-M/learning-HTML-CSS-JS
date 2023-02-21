@@ -2,11 +2,14 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  const url = new URL(request.url, `http://${request.headers.host}`);
+  const url = new URL(req.url, `http://${req.headers.host}`);
 
   switch (url.pathname) {
-    case "/":
+    case "/home":
       if (req.method === "GET") {
+        // Can be changed to text/html
+        res.writeHead(200, { "Content-Type": "text/html" });
+        res.end("Hey there we are live!!");
         break;
       } else if (req.method === "POST") {
         break;
